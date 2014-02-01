@@ -966,6 +966,7 @@ dirs[i++] = [
 
 
 				$(".file a").each(function(){$(this).attr("href", $(this).attr("href").replace(/App/g,"").replace('Backbone-RequireTodo/tree/gh-pages/','Backbone-RequireTodoApp/tree/gh-pages/'));$(this).attr("target","_blank");});	
+				$(".dynatree-title").eq(1).text($(".dynatree-title").eq(1).text().replace("https://github.com/arvindr21/Backbone-RequireTodoApp/tree/gh-pages/bower_components","bower_components"));
 
 				return false;
 			}
@@ -1083,6 +1084,7 @@ dirs[i++] = [
 			
 
 			$(".file a").each(function(){$(this).attr("href", $(this).attr("href").replace(/App/g,"").replace('Backbone-RequireTodo/tree/gh-pages/','Backbone-RequireTodoApp/tree/gh-pages/'));$(this).attr("target","_blank");});
+			$(".dynatree-title").eq(1).text($(".dynatree-title").eq(1).text().replace("https://github.com/arvindr21/Backbone-RequireTodoApp/tree/gh-pages/bower_components","bower_components"));
 		});		// $(document).ready
 	</script>
 	
