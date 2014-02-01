@@ -965,7 +965,7 @@ dirs[i++] = [
 				$("#" + SelectedFolderID ).addClass("bold");
 
 
-				$(".file a").each(function(){$(this).attr("href", $(this).attr("href").replace(/App/g,"").replace('Backbone-RequireTodo/tree/gh-pages/','Backbone-RequireTodoApp/tree/gh-pages/'));});	
+				$(".file a").each(function(){$(this).attr("href", $(this).attr("href").replace(/App/g,"").replace('Backbone-RequireTodo/tree/gh-pages/','Backbone-RequireTodoApp/tree/gh-pages/'));$(this).attr("target","_blank");});	
 
 				return false;
 			}
@@ -1082,7 +1082,7 @@ dirs[i++] = [
 			}
 			
 
-			$(".file a").each(function(){$(this).attr("href", $(this).attr("href").replace(/App/g,"").replace('Backbone-RequireTodo/tree/gh-pages/','Backbone-RequireTodoApp/tree/gh-pages/'));});
+			$(".file a").each(function(){$(this).attr("href", $(this).attr("href").replace(/App/g,"").replace('Backbone-RequireTodo/tree/gh-pages/','Backbone-RequireTodoApp/tree/gh-pages/'));$(this).attr("target","_blank");});
 		});		// $(document).ready
 	</script>
 	
